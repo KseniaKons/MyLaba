@@ -678,7 +678,7 @@
 
 .footer
 {
-    border-bottom: 1px solid #156963;
+    /*border-bottom: 1px solid #156963;*/
     
     display: block;
     box-sizing: border-box;
@@ -689,7 +689,270 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
+}
 
-    /*border-bottom: 1px solid #156963;*/
+.footerInside
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 946px;
+    height: 137px;
+    top: 60px;
+    right: 167px;
+    bottom: 71px;
+    left: 167px;
+}
+
+
+.ZagFoot1
+{
+    color: var(--colorosn);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 112px;
+    height: 24px;
+    top: 0px;
+    right: 834px;
+    bottom: 113px;
+    left: 0px;
+
+    margin: 0px;
+}
+
+.ZagFoot2
+{
+    color: var(--but1);
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.ZagFoot3
+{
+
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 234px;
+    height: 32px;
+    top: 30px;
+    right: 0px;
+    bottom: 36px;
+    left: 0px;
+
+    margin: 0px;
+}
+
+.txtFoot
+{
+    color: #4F4F4F;
+    font-family: 'Work Sans', sans-serif ;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+
+    
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 283px;
+    height: 60px;
+    top: 77px;
+    right: 664px;
+    bottom: 0px;
+    left: 0px;
+
+    margin: 0px;
+}
+
+.DivFoot
+{
+    color: var(--colorblack);
+    font-family: 'Work Sans', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.Pos1
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 93px;
+    height: 16px;
+    top: 36px;
+    right: 491px;
+    bottom: 85px;
+    left: 362px;
+
+    margin: 0px;
+}
+
+.Pos2
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    top: 66px;
+    right: 489px;
+    bottom: 55px;
+    left: 362px;
+
+    margin: 0px;
+}
+
+.Pos3
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 62px;
+    height: 16px;
+    top: 36px;
+    right: 347px;
+    bottom: 85px;
+    left: 537px;
+
+    margin: 0px;
+}
+
+.Pos4
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    top: 66px;
+    right: 314px;
+    bottom: 55px;
+    left: 537px;
+
+    margin: 0px;
+}
+
+
+
+.btFoot
+{
+    background-color: var(--colorosn);
+    color: var(--but2);
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+    border: none;
+
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    top: 76px;
+    right: 183px;
+    bottom: 0px;
+    left: 0px;
+
+    margin: 0px;
+}
+
+.PosZF21
+{
+    
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 115px;
+    height: 19px;
+    top: 48px;
+    right: 831px;
+    bottom: 70px;
+    left: 0px;
+
+    margin: 0px;
+}
+
+.PosZF22
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 92px;
+    height: 16px;
+    top: 0px;
+    right: 492px;
+    bottom: 121px;
+    left: 362px;
+
+    margin: 0px;
+}
+
+.PosZF23
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    top: 0px;
+    right: 353px;
+    bottom: 121px;
+    left: 537px;
+
+    margin: 0px;
+}
+
+.PosZF24
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 16px;
+    top: 0px;
+    right: 35px;
+    bottom: 82px;
+    left: 0px;
+
+    margin: 0px;
+}
+
+.form
+{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 234px;
+    height: 98px;
+    top: 0px;
+    right: 0px;
+    bottom: 39px;
+    left: 712px;
+
+    margin: 0px;
 }
 
