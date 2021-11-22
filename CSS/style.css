@@ -177,10 +177,13 @@
     background-color: var(--colorfon);
     border: none;
     box-sizing: border-box;  
+    display: flex;
     width: 320px;
     height: 160px;
+    flex-direction: column;
     margin-top: 110px;
     margin-left: 32px;
+
 }
 
 .button2
@@ -192,6 +195,7 @@
     width: 320px;
     height: 160px;
     margin-top: 110px;
+    flex-direction: column;
     
     
 }
@@ -200,12 +204,14 @@
 {
     display: flex;
     margin-left: 42px; 
+    margin-top: 30px;
 }
 
 .positionRight
 {
     display: flex;
-    margin-left: 42px; 
+    margin-left: 42px;
+    margin-top: 39px;
 }
 
 .txtBut1
