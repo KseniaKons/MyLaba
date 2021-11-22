@@ -22,50 +22,66 @@
     background-color: var(--colorfon);
 }
 
+.main
+{
+    box-sizing: border-box;
+    width: 1280px;
+}
+
+.header
+{
+    width: 1168px;
+    height: 36px;
+    margin-left: 56px;
+    margin-top: 40px;  
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+   
+
+}
 
 .logo
 {
-   
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
-    top: 40px;
-    right: 1188px;
-    bottom: 2871px;
-    left: 56px;
+    position: static;
+}
+
+.right
+{ 
+    display: flex;
+    position: static;
+    width: 310px;
+    height: 36px;
+    justify-content: space-between;
+
 }
 
 .search
 {
-    display: block;
     box-sizing: border-box;
-    position: absolute;
-    top: 48px;
-    right: 346px;
-    bottom: 2879px;
-    left: 914px;
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 20px;
 }
 
 .buy
 {
-    display: block;
     box-sizing: border-box;
-    position: absolute;
-    top: 48px;
-    right: 286px;
-    bottom: 2879px;
-    left: 974px;
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 20px;
 }
 
 .buttonTop
 {
-    display: block;
     box-sizing: border-box;
-    position: absolute;
-    top: 40px;
-    right: 56px;
-    bottom: 2871px;
-    left: 1002px;
+    width: 230px;
+    height: 36px;
 }
 
 .bT1
@@ -74,10 +90,10 @@
     font-family: 'Nunito', sans-serif;
     color: var(--colorosn);
     text-decoration: none;
-    position: static;
     width: 111px;
     height: 36px;
     border: none;
+    padding: 0px;
    
 }
 
@@ -85,24 +101,33 @@
 {
     background-color: var(--colorosn);
     font-family: 'Nunito', sans-serif;
-    color: var(--color);
+    color: var(--colorfon);
     text-decoration: none;
-    position: static;
     width: 111px;
     height: 36px;
 }
+
 
 .mainPhoto
 {
     width: 608px;
     height: 740px;
-    display:block;
+    display: flex;
     box-sizing: border-box;
-    position: fixied;
-    top: 0px;
-    right: 672px;
-    bottom: 2207px;
-    left: 0px;
+    margin: 0px;
+   
+}
+
+.section
+{
+    display: flex;
+}
+
+.divF
+{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .FirstZag
@@ -112,17 +137,14 @@
     font-weight: 500;
     font-size: 68px;
     line-height: 83px;
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
     width: 522px;
     height: 166px;
-    top: 186px;
-    right: 72px;
-    bottom: 2595px;
-    left: 685px;
+    margin-top: 186px;
+    margin-left: 77px;
+    margin-bottom: 0px;
 
-    margin: 0px;
 }
 
 .FirsTxt
@@ -134,73 +156,56 @@
     font-size: 18px;
     line-height: 32px;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
     width: 493px;
     height: 96px;
-    top: 376px;
-    right: 102px;
-    bottom: 2475px;
-    left: 685px;
 
-    margin: 0px;
+    margin-top: 24px;
+    margin-left: 77px;
+    margin-bottom: 0px;
+}
+
+.ButFl
+{
+    display: flex;
+    flex-direction: row;
 }
 
 .button1
 {
     background-color: var(--colorfon);
     border: none;
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
+    box-sizing: border-box;  
     width: 320px;
     height: 160px;
-    top: 582px;
-    right: 320px;
-    bottom: 2205px;
-    left: 640px;
-    margin: 0px;
-    
+    margin-top: 110px;
+    margin-left: 32px;
 }
 
 .button2
 {
     background-color: var(--colorosn);
     border: none;
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
     width: 320px;
     height: 160px;
-    top: 582px;
-    right: 0px;
-    bottom: 2205px;
-    left: 960px;
-    margin: 0px;
+    margin-top: 110px;
+    
     
 }
 
 .positionLeft
 {
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    top: 25px;
-    right: 174px;
-    bottom: 89px;
-    left: 49px;
+    display: flex;
+    margin-left: 42px; 
 }
 
 .positionRight
 {
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    top: 30px;
-    right: 174px;
-    bottom: 84px;
-    left: 49px;
+    display: flex;
+    margin-left: 42px; 
 }
 
 .txtBut1
@@ -212,16 +217,12 @@
     font-size: 32px;
     line-height: 39px;
 
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 208px;
-    height: 39px;
-    top: 83px;
-    right: 39px;
-    bottom: 38px;
-    left: 59px;
+    display: flex;
+    margin-left: 42px; 
+    margin-top: 12px;
 }
+
+   
 
 .txtBut2
 {
@@ -232,98 +233,59 @@
     font-size: 32px;
     line-height: 39px;
 
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 222px;
-    height: 39px;
-    top: 83px;
-   right: 49px;
-    bottom: 38px;
-    left: 49px;
+
+    display: flex;
+    margin-left: 42px; 
+    margin-top: 12px;
 }
+
+
 
 .section1
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
     width: 1168px;
     height: 155px;
-    top: 882px;
-   right: 56px;
-    bottom: 1910px;
-    left: 56px;
+    margin-left: 56px;
+    margin-top: 142px;
+    
 }
 
-.posBox1
+.posBox
 {
     border: 1px solid var(--colorbox);
-    display: block;
+    
+    display: flex;
     box-sizing: content-box;
-    position: absolute;
+   
     width: 268px;
     height: 155px;
-    top: 0px;
-    right: 900px;
-    bottom: 0px;
-    left: 0px;
+    flex-direction: column;
 }
 
-.posBox2
+.BoxFl
 {
-    border: 1px solid var(--colorbox);
-    display: block;
-    box-sizing: content-box;
-    position: absolute;
-    width: 268px;
-    height: 155px;
-    top: 0px;
-    right: 600px;
-    bottom: 0px;
-    left: 300px;
+    display: flex;
+
 }
 
-.posBox3
+.posBL
 {
-    border: 1px solid var(--colorbox);
-    display: block;
-    box-sizing: content-box;
-    position: absolute;
-    width: 268px;
-    height: 155px;
-    top: 0px;
-    right: 300px;
-    bottom: 0px;
-    left: 600px;
+    margin-left: 32px;
 }
 
-.posBox4
-{
-    border: 1px solid var(--colorbox);
-    display: block;
-    box-sizing: content-box;
-    position: absolute;
-    width: 268px;
-    height: 155px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 900px;
-}
 
 .imgBox
 {
-    display: block;
+    display: flex;
     box-sizing: content-box;
-    position: absolute;
+    
     width: 48px;
     height: 48px;
-    top: 22px;
-    right: 204px;
-    bottom: 85px;
-    left: 16px;
 
+    margin-top: 22px;
+    margin-left: 16px;
 }
 
 .zagBox
@@ -335,15 +297,29 @@
     font-size: 16px;
     line-height: 24px;
    
-    display: block;
+    display: flex;
     box-sizing: content-box;
-    position: absolute;
+    
+}
+
+.zagFl1
+{
+    margin-top: 22px;
+    margin-left: 16px;
+
     width: 137px;
     height: 48px;
-    top: 22px;
-    right: 51px;
-    bottom: 85px;
-    left: 80px;
+    margin-bottom: 0px;
+}
+
+.zagFl
+{
+    margin-top: 22px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+
+    width: 100px;
+    height: 48px;
 }
 
 .txtBox
@@ -355,28 +331,28 @@
     font-size: 10px;
     line-height: 16px;
     
-    display: block;
+    display: flex;
     box-sizing: content-box;
-    position: absolute;
+    
     width: 236px;
     height: 48px;
-    top: 86px;
-    right: 16px;
-    bottom: 21px;
-    left: 16px;
+
+    margin-top: 16px;
+    margin-left: 16px;
+    
 }
 
 .section2
 {
-    display: block;
+    display: flex;
     box-sizing: content-box;
-    position: absolute;
+    flex-direction: column;
+   
     width: 1168px;
     height: 352px;
-    top: 1117px;
-    right: 56px;
-    bottom: 1478px;
-    left: 56px;
+    margin-left: 56px;
+    margin-top: 80px;
+    
 }
 
 .ZagCase
@@ -388,83 +364,39 @@
     font-size: 20px;
     line-height: 24px;
     
-    display: block;
+    display: flex;
     box-sizing: content-box;
-    position: absolute;
+   
     width: 162px;
     height: 24px;
-    top: 0px;
-    right: 1006px;
-    bottom: 328px;
-    left: 0px;
-    margin: 0px;
+
+    margin-top: 0px;
+    
+   
 }
 
-.PositionCase1
+.CaseFl
 {
-    display: block;
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+
+
+}
+
+
+.PositionCase
+{
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+   
     width: 217px;
     height: 281px;
-    top: 71px;
-    right: 951px;
-    bottom: 0px;
-    left: 0px;
+    flex-direction: column;
+
+   
 }
 
-.PositionCase2
-{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 217px;
-    height: 281px;
-    top: 71px;
-    right: 714px;
-    bottom: 0px;
-    left: 237px;
-}
-
-.PositionCase3
-{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 217px;
-    height: 281px;
-    top: 71px;
-    right: 474px;
-    bottom: 0px;
-    left: 474px;
-}
-
-.PositionCase4
-{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 217px;
-    height: 281px;
-    top: 71px;
-    right: 237px;
-    bottom: 0px;
-    left: 714px;
-}
-
-
-.PositionCase5
-{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 217px;
-    height: 281px;
-    top: 71px;
-    right: 0px;
-    bottom: 0px;
-    left: 951px;
-}
 
 .zagC1
 {
@@ -476,8 +408,15 @@
     line-height: 20px;
 
     display: flex;
-    align-items: center;
+    box-sizing: border-box;
+
+    height: 20px;
+
     justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+
+   
 }
 
 .zagC2
@@ -490,33 +429,41 @@
     line-height: 20px;
 
     display: flex;
-    align-items: center;
+    box-sizing: border-box;
+
+    height: 20px;
+
     justify-content: center;
+    margin: 0px;
+
+    
 }
 
 .line
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
-    width: 1168px;
-    height: 47px;
-   
-
     border-bottom: 1px solid #E0E0E0;
+
+    height: 47px;
 }
 
 .section3
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 1165px;
     height: 610px;
-    top: 1549px;
-    right: 57px;
-    bottom: 788px;
-    left: 58px;
+   
+    margin-top: 80px;
+    margin-left: 58px;
+}
+
+.Sec3Fl
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .ZagSec3
@@ -528,17 +475,14 @@
     font-size: 40px;
     line-height: 56px;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 522px;
     height: 112px;
-    top: 0px;
-    right: 643px;
-    bottom: 498px;
-    left: 0px;
-
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+   
 }
 
 .txtSec3
@@ -551,69 +495,64 @@
     font-size: 16px;
     line-height: 28px;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+   
     width: 507px;
     height: 140px;
-    top: 120px;
-    right: 658px;
-    bottom: 358px;
-    left: 0px;
-
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 74px;
+   
 
 }
 
 .imgPosition1
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
-    top: 360px;
-    right: 597px;
-    bottom: 0px;
-    left: 0px;
+
+    margin-top: 0px;
+   
+    
 }
 
 .imgPosition2
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 652px;
+    margin-left: 84px;
 }
 
 .section4
 {
     background-color: var(--section4);
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 1168px;
     height: 360px;
-    top: 2239px;
-    right: 56px;
-    bottom: 348px;
-    left: 56px;
+
+    margin-top: 80px;
+    margin-left: 56px;
+    
 
 }
 
+
 .divPosition
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+
+    flex-direction: column;
+    
     width: 585px;
     height: 184px;
-    top: 88px;
-    right: 486px;
-    bottom: 88px;
-    left: 97px;
+
+    margin-top: 88px;
+    margin-left: 97px;
+   
 }
 
 .ZagSec4
@@ -626,17 +565,13 @@
     font-size: 40px;
     line-height: 56px;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 585px;
     height: 112px;
-    top: 0px;
-    right: 0px;
-    bottom: 72px;
-    left: 0px;
-
     margin: 0px;
+   
 }
 
 
@@ -653,57 +588,65 @@
     line-height: 20px;
     text-align: center;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 152px;
     height: 40px;
-    top: 144px;
-    right: 433px;
-    bottom: 0px;
-    left: 0px;
+
+    margin-top: 32px;
+
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .img13Position
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    margin-left: 6px;
     
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 688px;
+    
+  
 }
 
 .footer
 {
-    /*border-bottom: 1px solid #156963;*/
+    border-top: 1px solid #156963;
     
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 1280px;
     height: 268px;
-    top: 2769px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+
+    margin-top: 80px;
+    flex-direction: row;
+   
 }
 
 .footerInside
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 946px;
     height: 137px;
-    top: 60px;
-    right: 167px;
-    bottom: 71px;
-    left: 167px;
+
+    margin-top: 60px;
+    margin-left: 167px;
+    
+   
 }
 
+.FootDiv
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+
+}
 
 .ZagFoot1
 {
@@ -714,17 +657,15 @@
     font-size: 24px;
     line-height: 24px;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+  
     width: 112px;
     height: 24px;
-    top: 0px;
-    right: 834px;
-    bottom: 113px;
-    left: 0px;
-
-    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    
 }
 
 .ZagFoot2
@@ -735,6 +676,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+   
 }
 
 .ZagFoot3
@@ -747,17 +689,12 @@
     font-size: 12px;
     line-height: 16px;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+  
     width: 234px;
     height: 32px;
-    top: 30px;
-    right: 0px;
-    bottom: 36px;
-    left: 0px;
-
-    margin: 0px;
+   
 }
 
 .txtFoot
@@ -770,17 +707,14 @@
     line-height: 20px;
 
     
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+  
     width: 283px;
     height: 60px;
-    top: 77px;
-    right: 664px;
-    bottom: 0px;
-    left: 0px;
-
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
 }
 
 .DivFoot
@@ -794,64 +728,67 @@
 
 }
 
+.FootDiv2
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+.FootDiv3
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
 .Pos1
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+   
     width: 93px;
     height: 16px;
-    top: 36px;
-    right: 491px;
-    bottom: 85px;
-    left: 362px;
-
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+   
 }
 
 .Pos2
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+   
     width: 96px;
     height: 16px;
-    top: 66px;
-    right: 489px;
-    bottom: 55px;
-    left: 362px;
-
     margin: 0px;
+    
 }
 
 .Pos3
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 62px;
     height: 16px;
-    top: 36px;
-    right: 347px;
-    bottom: 85px;
-    left: 537px;
-
     margin: 0px;
+    
 }
 
 .Pos4
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+   
     width: 96px;
     height: 16px;
-    top: 66px;
-    right: 314px;
-    bottom: 55px;
-    left: 537px;
 
-    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+    
 }
 
 
@@ -867,92 +804,85 @@
     line-height: 14px;
     border: none;
 
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 51px;
     height: 22px;
-    top: 76px;
-    right: 183px;
-    bottom: 0px;
-    left: 0px;
-
-    margin: 0px;
+    
 }
 
 .PosZF21
 {
     
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 115px;
     height: 19px;
-    top: 48px;
-    right: 831px;
-    bottom: 70px;
-    left: 0px;
 
-    margin: 0px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    
 }
 
 .PosZF22
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 92px;
     height: 16px;
-    top: 0px;
-    right: 492px;
-    bottom: 121px;
-    left: 362px;
-
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
 }
 
 .PosZF23
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 56px;
     height: 16px;
-    top: 0px;
-    right: 353px;
-    bottom: 121px;
-    left: 537px;
 
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
 }
 
 .PosZF24
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+    
     width: 200px;
     height: 16px;
-    top: 0px;
-    right: 35px;
-    bottom: 82px;
-    left: 0px;
 
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
 }
 
 .form
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    position: absolute;
+
+    flex-direction: column;
+   
     width: 234px;
     height: 98px;
-    top: 0px;
-    right: 0px;
-    bottom: 39px;
-    left: 712px;
 
-    margin: 0px;
+    margin-left: 80px;
+    
 }
 
+.formm
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    
+
+}
