@@ -53,7 +53,7 @@
 { 
     display: flex;
     position: static;
-    width: 310px;
+    width: 430px;
     height: 36px;
     justify-content: space-between;
 
@@ -82,6 +82,9 @@
     box-sizing: border-box;
     width: 230px;
     height: 36px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .bT1
@@ -90,24 +93,61 @@
     font-family: 'Nunito', sans-serif;
     color: var(--colorosn);
     text-decoration: none;
-    width: 111px;
+    width: 110px;
     height: 36px;
     border: none;
     padding: 0px;
-   
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 .bT2
 {
     background-color: var(--colorosn);
     font-family: 'Nunito', sans-serif;
-    color: var(--colorfon);
     text-decoration: none;
-    width: 111px;
+    color: var(--colorfon);
+    width: 110px;
     height: 36px;
     border: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.click:active
+{
+    box-shadow: 0 0 2px 2px inset grey;
+    border-radius: 2px;
+
+}
+
+.click:hover 
+{
+    color: #849d9a;
+
+}
+
+.formBt
+{
+    background-color: var(--colorosn);
+    font-family: 'Nunito', sans-serif;
+    color: var(--colorfon);
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 80px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
 
 .mainPhoto
 {
@@ -171,6 +211,7 @@
 {
     display: flex;
     flex-direction: row;
+    
 }
 
 .button1
@@ -227,6 +268,7 @@
     display: flex;
     margin-left: 42px; 
     margin-top: 12px;
+
 }
 
    
@@ -559,6 +601,7 @@
 
     margin-top: 88px;
     margin-left: 97px;
+    text-decoration: none;
    
 }
 
@@ -585,27 +628,28 @@
 
 .butSec4
 {
-
+   
     background: var(--colorosn);
     color: var(--colorbt);
     font-family: 'Nunito', sans-serif;
-    font-style: normal;
+    font-size: 16px;
+    border: none;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-
     display: flex;
     box-sizing: border-box;
-    
     width: 152px;
     height: 40px;
 
     margin-top: 32px;
 
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
+}
+
+.hr
+{
+    text-decoration: none;
+
 }
 
 .img13Position
@@ -689,12 +733,13 @@
 .ZagFoot3
 {
 
-    color: #000000;
+    color: var(--colorosn);
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px;
+ 
 
     display: flex;
     box-sizing: border-box;
@@ -892,4 +937,64 @@
     margin-top: 0px;
     
 
+}
+
+
+
+
+.bodyForm
+{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.headerForm
+{
+width: 1168px;
+margin-left: 56px;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.mainForm
+{
+flex-grow: 1;
+}
+
+.footerForm
+{
+display: flex;
+width: 1280px;
+}
+
+.FormaZag
+{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--colorosn);
+    font-weight: 70px;
+    font-size: 28px;
+}
+
+.FormF
+{
+   display: flex;
+   flex-direction: column;
+   width: 900px;
+    margin: 100px;
+}
+
+.batForm
+{
+    background-color: var(--colorosn);
+    color: var(--but2);
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
+.red
+{
+    background-color: #FFC0CB;
 }
