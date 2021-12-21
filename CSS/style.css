@@ -120,17 +120,10 @@
     justify-content: center;
 }
 
-.click:active
-{
-    box-shadow: 0 0 2px 2px inset grey;
-    border-radius: 2px;
-
-}
 
 .click:hover 
 {
-    color: #849d9a;
-
+    color: #808080;
 }
 
 .formBt
