@@ -15,17 +15,13 @@
         <img class="logo" src="img/Group.png" width="36" height="36" alt="icon">
         <div class="right">
 
-            <a class="search" href=""><img src="img/search.png" width="20" height="20" alt="search"></a>
-            <a class="buy" href=""><img src="img/shopping.png" width="20" height="20" alt="shop"></a>
+            <a class="search clickb" href=""><img src="img/search.png" width="20" height="20" alt="search"></a>
+            <a class="buy clickb" href=""><img src="img/shopping.png" width="20" height="20" alt="shop"></a>
 
 
             <div class="buttonTop">
-                <a href="" class="hr">
-                    <div class="bT1 click">Sign Up</div>
-                </a>
-                <a href="" class="hr">
-                    <div class="bT2 click">Sign In</div>
-                </a>
+                <a href="" class="hr bT1 click">Sign Up</a>
+                <a href="" class="hr bT2 click">Sign In</a>
             </div>
             <a href="index.html" class="formBt click">Index</a>
         </div>
@@ -66,16 +62,74 @@
 
                     <p>
                         <label> Удобный интервал для связи </label>
-                        <label><input type="checkbox" name="checkbox" value="Утром">Утром</label>
-                        <label><input type="checkbox" name="checkbox" value="Днем">Днем</label>
-                        <label><input type="checkbox" name="checkbox" value="Вечером">Вечером</label>
+                        <label><input type="checkbox" name="checkbox" value="Утром"> <span class="mor">Утром</span>
+                        </label>
+                        <label><input type="checkbox" name="checkbox" value="Днем"> <span class="aft"> Днем
+                            </span></label>
+                        <label><input type="checkbox" name="checkbox" value="Вечером"> <span
+                                class="nig">Вечером</span></label>
                     </p>
 
-                    <button class="batForm click" type="submit"> Отправить </button>
-                    <button class="batForm click" type="reset"> Сбросить </button>
+
                 </fieldset>
+                <div class="disfFORM">
+                    <button class="batForm colorOt" type="submit"> Отправить </button>
+                    <button class="batForm butDis colorSb" type="reset" disabled> Сбросить </button>
+                </div>
+            </form>
 
 
+        </section>
+
+        <section>
+            <form>
+                <dl>
+                    <dt>Псевдоклассы</dt>
+                    <dd>Это селектор, который выбирает элементы, находящиеся в специфическом состоянии,
+                        например, они являются первым элементом своего типа, или на них наведён указатель мыши.
+                    </dd>
+                    <dt>Псевдоэлементы</dt>
+                    <dd>Это ключевое слово, добавляемое к селектору, которое позволяет
+                        стилизовать определённую часть выбранного элемента. </dd>
+                </dl>
+
+                <div class="divCheck">
+                    <div class="divCheck2">
+                        <span class="textForm">:Псевдоклассы</span>
+                        <label><input type="checkbox" name="checked" value=":hover" checked> <span
+                                class="checkedForm">:hover</span></label>
+                        <label><input type="checkbox" name="checked" value=":visited"> <span
+                                class="checkedForm">:visited</span></label>
+                        <label><input type="checkbox" name="checked" value=":root" checked> <span
+                                class="checkedForm">:root</span></label>
+                        <label><input type="checkbox" name="checked" value=":active" checked> <span
+                                class="checkedForm">:active</span></label>
+                        <label><input type="checkbox" name="checked" value=":focus" checked> <span
+                                class="checkedForm">:focus</span></label>
+                        <label><input type="checkbox" name="checked" value=":link"> <span
+                                class="checkedForm">:link</span></label>
+                    </div>
+
+                    <div class="divCheck2">
+                        
+                            <span class="textForm">::Псевдоэлементы</span>
+                            <label class="childdd"><input type="checkbox" name="checked" value="::first-letter" checked> <span
+                                    class="checkedForm inn">::first-letter</span></label>
+                            <label class="childdd"><input type="checkbox" name="checked" value="::firs-line"> <span
+                                    class="checkedForm inn">::firs-line</span></label>
+                            <label class="childdd"><input type="checkbox" name="checked" value="::selection" checked> <span
+                                    class="checkedForm inn">::selection</span></label>
+                            <label class="childdd"><input type="checkbox" name="checked" value="::before" checked> <span
+                                    class="checkedForm inn">::before</span></label>
+                            <label class="childdd"><input type="checkbox" name="checked" value="::aftere" checked> <span
+                                    class="checkedForm inn">::aftere</span></label>
+                            <label class="childdd"><input type="checkbox" name="checked" value="::placeholder"> <span
+                                    class="checkedForm inn">::placeholder</span></label>
+                       
+                    </div>
+
+
+                </div>
             </form>
 
 
@@ -118,15 +172,15 @@
 
             </div>
 
-           <div class="form">
+            <div class="form">
 
-                    <h5 class="ZagFoot2 PosZF24">Berlangganan Email Kami</h5>
-                    <form>
-                        <p><input class="ZagFoot3" type="text" placeholder="Masukan Alamat Email"> </p>
-                       <p><input class="btFoot click" type="submit"></p>
-                    </form>
+                <h5 class="ZagFoot2 PosZF24">Berlangganan Email Kami</h5>
+                <form>
+                    <p><input class="ZagFoot3" type="text" placeholder="Masukan Alamat Email"> </p>
+                    <button class="btFoot click" type="submit">Отправить</button>
+                </form>
 
-                </div>
+            </div>
 
         </div>
 
