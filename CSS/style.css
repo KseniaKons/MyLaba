@@ -6,7 +6,7 @@
 
 :root {
     --colorosn: #156963;
-    --colorfon: white;
+    --colorfon: #FFFAFA;
     --but1: #333333;
     --but2: #FFFFFF;
     --Txt: #2C1500;
@@ -30,6 +30,8 @@
     font-style:italic;
     font-weight: 100;
 }
+
+
 
 .body
 {
@@ -67,7 +69,6 @@
 { 
     display: flex;
     position: static;
-    width: 430px;
     height: 36px;
     justify-content: space-between;
 
@@ -88,7 +89,8 @@
     width: 20px;
     height: 20px;
     margin-top: 8px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
 }
 
 .buttonTop
@@ -111,7 +113,7 @@
     height: 36px;
     border: none;
     padding: 0px;
-    font-weight: bold;
+    font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,8 +152,11 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    margin-right: 10px ;
 
 }
+
+
 
 .mainPhoto
 {
@@ -160,6 +165,7 @@
     display: flex;
     box-sizing: border-box;
     margin: 0px;
+    background-color: #808080;
    
 }
 
@@ -317,6 +323,73 @@
     flex-direction: column;
 }
 
+.loader
+{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    opacity: 1;
+   transform-origin:center;
+    animation-name: boxanim;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    margin-top: 15%;
+}
+
+.anim
+{
+    opacity: 0;
+    margin-top: -41%;
+    transform-origin:center;
+    animation-name: boxanim1;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes boxanim
+{
+    0%
+    {
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+   90%
+   {
+    opacity: 1;
+   }
+
+    100%
+    {
+        transform: rotate(720deg);
+        opacity: 0;
+    }
+
+
+}
+
+@keyframes boxanim1
+{
+    0%
+    {
+        opacity: 0;
+
+    }
+    95%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+
+    }
+}
+
+
 .BoxFl
 {
     display: flex;
@@ -450,6 +523,10 @@
    
 }
 
+.PositionCase img
+{
+    background-color: var(--section4);
+}
 
 .zagC1
 {
@@ -566,6 +643,7 @@
 
     margin-top: 0px;
    
+    background-color: var(--colorfon);
     
 }
 
@@ -574,6 +652,7 @@
     display: flex;
     box-sizing: border-box;
     margin-left: 84px;
+    background-color: var(--colorfon);
 }
 
 .section4
@@ -662,7 +741,7 @@
     display: flex;
     box-sizing: border-box;
     margin-left: 6px;
-    
+    background-color: var(--section4);
     
   
 }
@@ -940,237 +1019,3 @@
 }
 
 
-
-
-.bodyForm
-{
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-}
-
-.headerForm
-{
-width: 1168px;
-margin-left: 56px;
-margin-top: 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-
-.mainForm
-{
-flex-grow: 1;
-}
-
-.footerForm
-{
-display: flex;
-width: 1280px;
-}
-
-.FormaZag
-{
-    font-family: 'Montserrat', sans-serif;
-    color: var(--colorosn);
-    font-weight: 70px;
-    font-size: 28px;
-}
-
-.FormF
-{
-   display: flex;
-   flex-direction: column;
-   width: 900px;
-    margin: 100px;
-}
-
-.batForm
-{
-    background-color: var(--colorosn);
-    color: var(--but2);
-    font-family: 'Raleway', sans-serif;
-    border: none;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-
-.disfFORM
-{
-    display: flex;
-    flex-direction: row;
-    width: 150px;
-}
-
-:required
-{
-    background-color: #FFC0CB;
-}
-
-.click:hover 
-{
-    color: #808080;
-}
-
-.click:active
-{
-    color: red;
-}
-
-.click:focus
-{
-    color: blue;
-}
-
-.clickb:hover
-{
-    background-color:#808080;
-}
-
-.clickb:active
-{
-    background-color: red;
-}
-
-.clickb:focus
-{
-    background-color: blue;
-}
-
-
-
-input:focus
-{
-    background-color: #F4A460;
-}
-
-
-input[type="checkbox"]:checked ~ .mor
-{
-    color: Orange;
-    text-shadow: 0 0 1px black;
-}
-
-input[type="checkbox"]:checked ~ .aft
-{
-    color: green;
-    text-shadow: 0 0 1px black;
-}
-
-input[type="checkbox"]:checked ~ .nig
-{
-    color: blue;
-    text-shadow: 0 0 1px black;
-}
-
-.butDis:disabled
-{
-    opacity: 0.5;
-}
-
-.colorOt:hover
-{
-    background-color: #00FF00;
-}
-
-.colorOt:focus
-{
-    color: blue;
-}
-
-
-.colorSb:hover
-{
-    background-color: red;
-}
-
-.colorSb:focus
-{
-    color: blue;
-
-}
-
-dl
-{
-    display: flex;
-    flex-direction: column;
-}
-
-dt::first-letter
-{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-dt
-{
-    font-family: 'Montserrat', sans-serif;
-    color: var(--colorosn);
-    margin-left: 100px;
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-
-
-
-dd
-{
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    line-height: 25px;
-    width: 700px;
-
-}
-
-dd::after
-{
-    content: "\1F6C8";
-}
-
-
-.divCheck
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.divCheck2
-{
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    line-height: 40px;
-    font-weight: bold;
-    font-size: 26px;
-    font-family: 'Nunito', sans-serif;
-}
-
-.textForm
-{
-    font-family: 'Montserrat', sans-serif;
-    color: var(--colorosn);
-    margin-bottom: 10px;
-    font-size: 25px;
-}
-
-input[type="checkbox"]:checked ~ .checkedForm
-{
-    text-decoration: line-through;
-    color: #006400;
-}
-
-.childdd:nth-child(odd)
-{
-    background-color: cornflowerblue;
-
-}
-
-.childdd:nth-child(even)
-{
-    background-color: #FFA07A;
-
-}

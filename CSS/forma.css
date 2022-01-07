@@ -1,0 +1,246 @@
+
+
+.bodyForm
+{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.headerForm
+{
+width: 1168px;
+margin-left: 56px;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.mainForm
+{
+flex-grow: 1;
+}
+
+.footerForm
+{
+display: flex;
+width: 1280px;
+}
+
+.FormaZag
+{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--colorosn);
+    font-weight: 70px;
+    font-size: 28px;
+}
+
+.FormF
+{
+   display: flex;
+   flex-direction: column;
+   width: 900px;
+    margin: 100px;
+}
+
+.batForm
+{
+    background-color: var(--colorosn);
+    color: var(--but2);
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.disfFORM
+{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+}
+
+:required
+{
+    background-color: #FFC0CB;
+}
+
+.click:hover 
+{
+    color: #000080;
+    box-shadow: 3px 3px 3px 3px #008000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.click:active
+{
+    color: red;
+}
+
+.click:focus
+{
+    color: blue;
+}
+
+.clickb:hover
+{
+    background-color:#808080;
+    box-shadow: 3px 3px 3px 3px #008000;
+    transition: all 0.5s ease 0s;
+}
+
+.clickb:active
+{
+    background-color: red;
+}
+
+.clickb:focus
+{
+    background-color: blue;
+}
+
+
+
+input:focus
+{
+    background-color: #F4A460;
+}
+
+
+input[type="checkbox"]:checked ~ .mor
+{
+    color: Orange;
+    text-shadow: 0 0 1px black;
+}
+
+input[type="checkbox"]:checked ~ .aft
+{
+    color: green;
+    text-shadow: 0 0 1px black;
+}
+
+input[type="checkbox"]:checked ~ .nig
+{
+    color: blue;
+    text-shadow: 0 0 1px black;
+}
+
+.butDis:disabled
+{
+    opacity: 0.5;
+}
+
+.colorOt:hover
+{
+    color: #808080;
+    background-color: #00FF00;
+    box-shadow: 3px 3px 3px 3px #008000;
+    transition: all 0.5s ease 0s;
+}
+
+.colorOt:focus
+{
+    color: blue;
+}
+
+
+.colorSb:hover
+{
+    color: #808080;
+    background-color: #FF0000;
+    box-shadow: 3px 3px 3px 3px #800000;
+    transition: all 0.5s ease 0s;
+}
+
+.colorSb:focus
+{
+    color: blue;
+
+}
+
+dl
+{
+    display: flex;
+    flex-direction: column;
+}
+
+dt::first-letter
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+dt
+{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--colorosn);
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+
+dd
+{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    width: 700px;
+
+}
+
+dd::after
+{
+    content: "\1F6C8";
+}
+
+
+.divCheck
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.divCheck2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.textForm
+{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--colorosn);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+input[type="checkbox"]:checked ~ .checkedForm
+{
+    text-decoration: line-through;
+    color: #006400;
+}
+
+.childdd:nth-child(odd)
+{
+    background-color: cornflowerblue;
+
+}
+
+.childdd:nth-child(even)
+{
+    background-color: #FFA07A;
+
+}
+
