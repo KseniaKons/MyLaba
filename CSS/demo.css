@@ -1,0 +1,149 @@
+.posi
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.grad1
+{
+   
+    width: 150px;
+    height: 150px;
+    background: rgb(11,226,229);
+    background: linear-gradient(0deg, rgba(11,226,229,1) 0%, rgba(169,255,0,1) 45%, rgba(252,33,0,1) 100%);     
+    margin-right:50px ;
+
+
+}
+
+.grad2
+{
+   
+    width: 150px;
+    height: 150px;
+    background: rgb(137,106,192);
+    background: radial-gradient(circle, rgba(137,106,192,1) 0%, rgba(56,207,208,1) 46%, rgba(252,225,70,1) 100%);
+    margin-right: 50px;
+
+
+}
+
+.grad3
+{
+   
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(yellow, lime, blue, violet, red);
+    border-radius: 100%;
+
+
+}
+
+.trr1
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 0, 255, 0.3);
+    margin-right: 70px;
+}
+
+.tr1
+{
+    width: 150px;
+    height: 150px;
+    background-color: #FF00FF;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    
+}
+
+.tr1:hover
+{
+    transform: translate(50px, 50px);   
+}
+
+
+
+
+.trr2
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 191, 255, 0.3);
+    margin-right: 50px;
+}
+
+.tr2
+{
+    width: 150px;
+    height: 150px;
+    background-color: #00BFFF;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+
+}
+
+.tr2:hover
+{
+    transform: scale(0.5);
+}
+
+
+.trr3
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(34, 139, 34, 0.3);
+    margin-right: 50px;
+    perspective: 500px;
+}
+
+.tr3
+{
+    width: 150px;
+    height: 150px;
+    background-color: #228B22;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+   
+    
+}
+
+.tr3:hover
+{
+    transform: translate3d(30px, 30px,30px) rotate3d(1,1,1,60deg);
+}
+
+
+.trr4
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 0, 0.3);
+    margin-right: 50px;
+    perspective: 500px;
+    transform-style: preserve-3d;
+}
+
+.tr4
+{
+    width: 150px;
+    height: 150px;
+    background-color: #FFD700;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+   
+    
+}
+
+.tr4:hover
+{
+    transform: rotateX(60deg);
+}
+
